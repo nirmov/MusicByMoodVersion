@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a966ff1c-cfa4-43ef-b4df-58db0231a698" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/API/LIWC2007_English100131.dic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IBMWatson/watson_similarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LIWC/LIWC_similarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LastFm/songs_artists_new.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LastFm/songs_artists_new1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_for_LIWC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-B-Turbo/Other-Song/Disguise-The-Lies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Other-Song/Oh-California.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/All-I-Wanted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Blank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Copper-Shades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Fortune-Teller.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Hamburg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Herbst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Pre-Berlin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Robin-II.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Sirens.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Summer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Swim-With-Sam.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Panama/Winterschläfer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Rumor-Had-It/I-Saw-You-Hiding-From-The-Rain-Today.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Rumor-Had-It/Left-Over-Tears-Lost.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Rumor-Had-It/Rumor-Had-It.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Rumor-Had-It/Theyve-Shut-Down-Marks-Spencer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Alright-Mr-Demille.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/America-America.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Jesus-Doesnt-Love-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Mary-Had-A-Secret.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Nightmare-On-Elm-Street.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Oh-California.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Plan-B.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Poster-Child.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Superman-Cant-Move-His-Legs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Welcome-To-Vegas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/When-Dean-Was-The-Man-And-Monroe-Always-Smiled.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Balladeer/Where-Are-You-Bambi-Woods/Where-Are-You-Bambi-Woods.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Called-Pain/Beautiful-Gun/King-Of-Pain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Called-Pain/Broken-Dreams/Holy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/A-Deeper-Evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/Adding-Heads-To-The-Pile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/At-The-Mouth-Of-Fire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/Fall-Of-The-Fire-Lord.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/Hall-Of-The-Frozen-Dead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/In-The-Keepers-Chamber.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/Lair-Of-The-Ice-Wyrm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/Of-Broken-Chains-And-Shattered-Skulls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/Prepare-For-Domination.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/Stormbringer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/The-Darkness-That-Comes-Before.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/When-The-Hills-Run-Red.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/Adding-Heads-to-the-Pile/Wyrd-Of-The-Winter-Wolf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/WarChiefs-of-the-Apocalypse/Bring-Out-Your-Dead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/WarChiefs-of-the-Apocalypse/Descent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/WarChiefs-of-the-Apocalypse/Disassembly-Line.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/WarChiefs-of-the-Apocalypse/I-Gogog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/WarChiefs-of-the-Apocalypse/Into-The-Maelstrom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/WarChiefs-of-the-Apocalypse/Procreation-Of-The-Wicked.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Band-Of-Orcs/WarChiefs-of-the-Apocalypse/Warchiefs-Of-The-Apocalypse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/A-Balada-Da-Bailarina-Torta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Aos-Garotos-De-Aluguel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Boa-Pessoa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Cantiga-De-Dar-Tchau.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Canção-Pra-Não-Voltar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Mercadoramama.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Nunca.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Oração.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Oxigênio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Se-Eu-Corro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Solitária.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Banda-Mais-Bonita-Da-Cidade/A-Banda-Mais-Bonita-da-Cidade/Ótima.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/A-Barca-Do-Sol.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/A-Primeira-Batalha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/Alaska.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/Arremesso.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/As-Boas-Consciências.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/Brilho-Da-Noite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/Caminhão.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/Corsário-Satã.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/Dragão-Da-Bondade.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/Lady-Jane.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Barca-Do-Sol/A-Barca-do-Sol/O-Fantasma-Da-Ópera.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Demise/Other-Song/Carpet-Surfing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Demise/Other-Song/Land-Of-The-Free-Home-Of-The-Gay.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Demise/Other-Song/Plague-My-Days.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Demise/Other-Song/Spread-Leg-Goodbye.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/Big-Booty-Bitches.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/Could-You-Say.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/Death-Is-A-Part-Of-Life.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/Going-Places.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/Instrumental.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/My-Guardian-Angel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/Sweet-Dreams-And-Bitter-Endings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/There-Is-No-Cure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/To-Lead-Astray.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/Waiting-For-You-To-Rip-My-Heart-Out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/Broken-Hearts-And-Lessons-Learned/You-Break-Me-Down.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/BLING-Being-Lonely-Is-Never-Good.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/Dance-With-The-Stars.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/Grey-Skies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/Hope-Is-A-Myth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/I-Wont-Let-You-Go.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/Make-Your-Move.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/My-Guardian-Angel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/My-Own-Windy-City.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/Say-Hello-To-History-For-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/Weve-Got-Something-Here.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/You-Can-Make-This-Easier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beautiful-Silence/My-Own-Windy-City/Youre-Living-A-Lie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beginnings-End/Other-Song/A-Needle-Through-The-Heart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Beginnings-End/Other-Song/Switchblades-And-Lollipops.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/All-For-The-Money.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/Anonymous.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/Choose.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/Doomsday-Robot-Army.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/Effect-Of-The-Scene.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/Fill-Me-Up.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/Hermit-Crab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/Please-Do-Not-Reveal-The-Ending.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Billion-Ernies/Other-Song/Stop-Calling-Us-Ska.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bird-A-Sparrow/A-Bird-A-Sparrow/1000-Times-Goodbye.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bird-A-Sparrow/A-Bird-A-Sparrow/An-Attempt-To-Say.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bird-A-Sparrow/A-Bird-A-Sparrow/Game-Over-Finish-Him.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bird-A-Sparrow/A-Bird-A-Sparrow/Ten-And-Two.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bird-A-Sparrow/A-Bird-A-Sparrow/We-Own-The-Night.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/A-Birthday-Party-Band/Days-Been-Cold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/A-Birthday-Party-Band/Happy-Song-About-Happy-Songs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/A-Birthday-Party-Band/I-Spread-Disease.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/A-Birthday-Party-Band/Inefficient.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/A-Birthday-Party-Band/No-Mans-Land.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/A-Birthday-Party-Band/Small-Talk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/A-Birthday-Party-Band/Where-Are-You-Heading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Broken-Cups.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Dont-Look-Down.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Forget.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Fugitive-Blues.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Gallows-On-Wheels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Get-Me-Out-Of-Here.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Grey-Blood.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Late.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Lead-Sky.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Birthday-Party-Band/Lead-Sky/Police-Song.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Black-Rose-Burial/An-Awakening-of-Revenants/A-Baleful-Aura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Black-Rose-Burial/An-Awakening-of-Revenants/Straight-From-The-Mind-Of-The-Modern-Day-Vigilante.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Black-Rose-Burial/An-Awakening-of-Revenants/The-Epidemic-Of-Unexpected-Relapses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Black-Rose-Burial/Other-Song/Cobra-Kai-Versus-Kobe-Tai.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Black-Rose-Burial/Other-Song/Tom-Savini-Versus-Greg-Nicotero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Black-Rose-Burial/Other-Song/Tony-Danza-Versus-Groin-Pains.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blaze-Of-Feather/A-Blaze-of-Feather/Six-Years.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blaze-Of-Feather/EP-1/Carousel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blaze-Of-Feather/EP-1/Shelter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blaze-Of-Feather/EP-1/Winter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blind-Prophecy/A-Silent-Omen/A-Silent-Omen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blind-Prophecy/A-Silent-Omen/Awakened.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blind-Prophecy/A-Silent-Omen/Shadows-From-Beyond.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blind-Prophecy/Under-the-Weeping-Moon/Buried-Dreams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blind-Prophecy/Under-the-Weeping-Moon/Under-The-Weeping-Moon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blind-Prophecy/Under-the-Weeping-Moon/Welcome-To-Reality.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/Other-Song/Forever-Is-Ok.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/Other-Song/Gibberish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/Other-Song/Here-Before.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/Other-Song/When-In-Doubt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/The-EP/A-Prayer-Before-Dying.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/The-EP/A-Walk-Alone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/The-EP/Miseries-And-Miracles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/The-EP/My-Final-Goodbye.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/The-EP/Pedestal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/The-EP/Promises.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blinding-Silence/The-EP/To-Sleep-And-Dream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Electric/Take-My-Hand.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Electric/The-Time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Father-to-Son/Do-You-Remember.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Father-to-Son/Father-To-Son.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Father-to-Son/In-Your-Garden.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Father-to-Son/Retroboy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Father-to-Son/Romantic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Father-to-Son/State-In-My-Mind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Father-to-Son/The-World-Today.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Blue-Ocean-Dream/Father-to-Son/United-States.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/1Hunnit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/Artist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/DTB-Interlude.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/Fall-In-Love.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/Friend-Zone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/I-Know-Whats-Real.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/Jungle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/Money-Over-Everything.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/My-Shit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/Still-Think-About-You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Artist/Trap-House.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Other-Song/Keke.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/Songs-on-Compilations-and-Soundtrack/Keke.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Bad-Girl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Beast-Mode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Drowning.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Fucking-Kissing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Get-To-You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/If-I-Gotta-Go.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Lets-Start-Over.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Money-Sprung.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/No-Comparison.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/No-Promises.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Say-A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Somebody.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Stalking-You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Undefeated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Boogie-Wit-Da-Hoodie/The-Bigger-Artist/Unhappy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/A-Perfect-Habitat-For-Foxes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/Beauty-Booty-Killerqueen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/Electric-Electric.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/Hammerhead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/Interrupt-My-High.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/Mutiny.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/Some-Peace.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/Till-Death.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/Tonight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Hammerhead/U-Turn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brand/Judas/Wheres-Your-Heart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breakaway/Alone-in-the-Crowd/Say-It-Like-You-Never-Meant-It.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/A-Night-In-Terror-Tower.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Cosmetic-Abomination.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Death-Is-Swallowed-In-Victory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Disharmony-Among-Choirs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Just-What-The-Monster-Ordered.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Looking-Into-The-Sun-Without-Going-Blind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Ray-Road.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Summoning-The-Lord-Of-The-Pit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Trainwreck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Trollz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Breath-Before-Surfacing/Death-Is-Swallowed-In-Victory/Writhing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brokeheart-Pro/The-Kitten-Next-Door/Charming-Fucker.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Brokeheart-Pro/The-Kitten-Next-Door/Dark-Red-And-Loud.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Caught-Up-In-Fiction.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Closing-The-Door.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Daydreams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Fearless.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Genesis-Of-Control.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Give-Em-Praise.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Hope.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Keep-Living-Our-Life.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Real-Heroes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/The-Right-Price.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/Walls-Collide.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/A-Broken-Silence/What-Are-We-Waiting-For-Life-Is-So-Wonderful.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/All-For-What.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/Are-You-Not-Entertained.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/By-Your-Laws.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/Everyday.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/If-You-Did-Know.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/Rat-Race.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/Run-A-Check.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/Take-This-Mirror.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/The-Pinnacle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/The-Road-Is-Lost.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/There-They-Go.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Silence/All-for-What/This-Nation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Tomorrow/Other-Song/Ive-Seen-Prettier-In-Amsterdam.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Broken-Tomorrow/Other-Song/When-They-Were-Sinking.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Beauty-In-The-Eyes-Of-The-Beholder/And-Still-You-Chose-Surrender.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Beauty-In-The-Eyes-Of-The-Beholder/Bears-Beets-Battlestar-Galactica.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Beauty-In-The-Eyes-Of-The-Beholder/Beauty-In-The-Eyes-Of-The-Beholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Beauty-In-The-Eyes-Of-The-Beholder/Dial-M-For-Murder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Beauty-In-The-Eyes-Of-The-Beholder/Pale-Horse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Beauty-In-The-Eyes-Of-The-Beholder/The-Hope-I-Confide-In.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/Decisions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/I-Will-Destroy-The-Wisdom-Of-The-Wise.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/Only-Time-Will-Tell.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/Patterns.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/RevisionRevise.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/The-Deciever.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/Tides.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/Vita-Nova.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/Voices-And-Vessels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/RevisionRevise/Windows.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/Come-Clean.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/Devtails.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/Forgiven-Not-Forgotten.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/Illumination.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/Obstruct.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/Red-Medic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/Reptile-Tongue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/Self-Disclosure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/The-Grateful-Prey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bullet-For-Pretty-Boy/Symbiosis/White-Noise.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Bunnys-Caravan/Draining-Puddles-Retrieving-Treasures/Inclosed-By-Skies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/A-Passing-Wish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/In-Failed-Attempts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/Introduction.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/Missles-And-Markers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/Out-In-The-Dark.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/Patience-Is-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/Retract.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/So-Much-You-Hide.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/The-Instrumental.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Burning-Water/We-Can-See-the-Sky-From-Here/These-Ruins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-C-Roy/Other-Song/Attention-Pan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-C-Roy/Other-Song/Coca-Cola-Addict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-C-Roy/Other-Song/Fuck-The-Bouncers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-C-Roy/Other-Song/LOL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-C-Roy/Other-Song/Nothing-Changes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-C-Roy/Other-Song/Way-Too-Blue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cadence-Of-Sorts/Other-Song/And-How-We-Would-Give-Her-The-Moon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cadence-Of-Sorts/Other-Song/Coastline-Pleasant-Dreams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cadence-Of-Sorts/Other-Song/Goodnight-Blue-Eyes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cadence-Of-Sorts/Other-Song/In-Her-Smile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cadence-Of-Sorts/Other-Song/Save-It-Girl-We-Know-Your-Intentions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Call-For-Arms/Other-Song/A-Call-For-Arms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Call-For-Arms/Other-Song/Insisted-Suicide.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Call-For-Arms/Other-Song/Perish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Call-For-Arms/Other-Song/Watch-This-City-Burn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Algebra.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Angel-Of-Sadness.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Elephant.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Frequent-Flyer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Hard-As-A-Stone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/I-Can-Buy-You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Rock-n-Roll-Ghost.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Silent-Night.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Song-For-The-Leftovers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Such-A-Bad-Comedown.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/The-Bluest-Eyes-In-Texas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/The-Oddness-Of-The-Lord.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/The-Same-Old-Song.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/A-Camp/Walking-The-Cow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/Bear-On-The-Beach.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/Chinatown.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/Golden-Teeth-And-Silver-Medals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/Here-Are-Many-Wild-Animals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/I-Signed-The-Line.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/Its-Not-Easy-To-Be-Human.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/Love-Has-Left-The-Room.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/My-America.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/Stronger-Than-Jesus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/The-Crowning.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Colonia/The-Weed-Had-Got-There-First.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Other-Song/Angels-Fall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Other-Song/Charlie-Charlie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Other-Song/Daddys-Gone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Other-Song/Deceased.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Other-Song/My-Dad.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Other-Song/Same-Old-Song.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Camp/Other-Song/Whyd-You-Come-In-Here-Looking-Like-That.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Capella-Science/Other-Song/Whole-New-Worlds.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Capella-Science/Single/Whole-New-Worlds.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Case-Of-Grenada/Other-Song/Artificial-Sun-Kills-Ideologists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Case-Of-Grenada/Other-Song/As-Far-As-We-Cant-See.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Case-Of-Grenada/Other-Song/Electric-Dance-Floor-Poetry.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Case-Of-Grenada/Other-Song/Immaturity-Of-A-Moment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Case-Of-Grenada/Other-Song/Signals-On-Displays.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Case-Of-Grenada/Other-Song/Soaked-In-Blood.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Case-Of-Grenada/Other-Song/The-Secret-In-The-Sound.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Case-Of-Grenada/Other-Song/Traitors-Manual.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Certain-Ratio/Other-Song/All-Night-Party.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Certain-Ratio/Other-Song/Do-The-Du.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Certain-Ratio/Other-Song/Shack-Up.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Certain-Ratio/Other-Song/The-Big-Emotion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/A-Farewell-To-Friendship.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Asleep-At-The-Wheel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Chippie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Death-Do-Us-Part.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/December.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Every-Second.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Goodbye-For-Now.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Home-Is-Where-The-Heart-Is.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Know-One-Knows.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Loose-Lips-Sink-Ships.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/An-Offer-You-Cant-Refuse/Queen-Of-Hearts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Change-Is-The-Only-Constant/A-Vague-Memory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Change-Is-The-Only-Constant/Black-Truth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Change-Is-The-Only-Constant/Chippie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Change-Is-The-Only-Constant/Goodbye-For-Now.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Change-Is-The-Only-Constant/Pearl-Summer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Change-Is-The-Only-Constant/Queen-Of-Hearts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Change-Is-The-Only-Constant/Sell-Out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/It-Could-Be-Worse/Ill-Be-There.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/It-Could-Be-Worse/The-Other-Way.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/It-Could-Be-Worse/Weekend-Warriors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Just-No-Better-Way/I-Found-Myself-Today.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Just-No-Better-Way/Ill-Be-There.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Just-No-Better-Way/She-Believed-Never-In-Herself.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Just-No-Better-Way/The-First-Time-We-Ever-Met.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Just-No-Better-Way/The-Safest-Place.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Other-Song/Found-Myself-Today.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Other-Song/Girlfriend.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Other-Song/Loose-Lips-Dvd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Other-Song/Till-Death-Due-Us-Part.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/A-Song-The-World-Can-Sing-Out-Loud.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/How-To-Rape-A-Country.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/I-Wanna-Be-Your-Rock-Roll.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/Im-Alive.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/Prepare-The-Masses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/Recipe-For-Disaster.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/Safe-And-Sound-In-Phone-Lines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/Shoot-From-The-Hip.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/Take-Care.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/War-In-Your-Bedroom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/Weekend-Warriors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Prepare-The-Masses/White-Lines-And-Lipstick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Songs-from-SinglesCompilation/Christmas-On-The-Coast.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Songs-from-SinglesCompilation/I-Never-Knew.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Songs-from-SinglesCompilation/In-This-Together.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Change-Of-Pace/Songs-from-SinglesCompilation/The-Thin-Red-Line.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Chilling-Silence/Other-Song/Black-Heart-Lover.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Circle-Of-Saturn/Other-Song/A-Dreamers-Song.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Circle-Of-Saturn/Other-Song/Brick-By-Brick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Circle-Of-Saturn/Other-Song/Like-A-Falling-Star.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Circle-Of-Saturn/Other-Song/Lucid-Dream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Circle-Of-Saturn/Other-Song/Post-Modern-Pornography.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Circle-Of-Saturn/Other-Song/Queen-Of-Hearts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-City-Serene/The-Art-Of-Deceiving-Perception/The-Escape.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-City-Serene/The-Art-Of-Deceiving-Perception/With-Swords-Crossed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-City-Static/Other-Song/Oceans-Apart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-City-Static/Other-Song/Running-Never-Did-Anything.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colder-Year/Other-Song/Falls-Apart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colder-Year/Other-Song/Gifted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colder-Year/Other-Song/Pillbox.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colder-Year/Other-Song/Sooner-Than-Now.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colder-Year/Other-Song/Thoughts-Of-You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colder-Year/Other-Song/Wave.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/Active-Soul-Erosion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/Adrenaline-Agony.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/Angel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/Beyond-Truth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/Menschenangst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/My-Cynical-Survival.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/Programmed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/Round-Up.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/The-House-Of-The-Drowning-Sun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Adrenaline-Agony/Y2k-RIP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/1810-Nights.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/21-Jump-Street.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Ambigous-In-Amber.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Autumn-Leaves.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Calling-Generation-Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Centrifuge.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Falling-In-A-Hole.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Give-It-Sense.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Im-Wearing-You-Deep-Inside-Like-A-Cancer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Leere.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Pull-It-Up.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Ugly-Side.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Pull-It-Up/Under-The-Sky.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/Abgelebt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/Cancers-Beauty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/Catharsis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/Katerkopf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/My-Soul.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/PIB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/Rockit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/The-Last-Chapter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/This-Way.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Colour-Cold-Black/Rockitallover/Your-Stone-Forever.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contrail-To-Follow/May-God-Make-Our-Beginnings/Greenpeace.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contrail-To-Follow/May-God-Make-Our-Beginnings/I-Have-Found-Something-New.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contrail-To-Follow/May-God-Make-Our-Beginnings/May-God-Make-Our-Beginnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contrail-To-Follow/May-God-Make-Our-Beginnings/The-Gift-Outright.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Anclado-Al-Destino.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Carnavales-De-Mentiras.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Colección-De-Fracasos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Crucificao-En-Tu-Piel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Donde-Nadie-Escucha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/El-Blues-De-Cualquier-Abril.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Lobo-Con-Piel-De-Cordero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Motivos-De-Sobra-Intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Prófugo-Del-Silencio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Sangre-De-RockRoll.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Allí-Donde-Nadie-Escucha/Vertederos-De-Ilusión.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Al-Mal-Tiempo-Mala-Cara.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Alma-De-Carretera.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Arena-Y-Sed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Conflictos-Internos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Desatado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Deuda-Pendiente.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Eslabones-Perdidos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Nido-De-Serpientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Pasiones-Kamikazes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Sigo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Sin-Don-Ni-Dios.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Contraverso/Punto-Sin-Retorno/Vientos-De-Cambio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Abri-A-Porta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Amor-Inteiro-Oxalá.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Beleza-Pura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Davilicença.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Frutificar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Menino-Deus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Noites-Cariocas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/O-Dia-De-Amanhã.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Os-Pingo-Da-Chuva.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Pela-Beira-Do-Mar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Saudação-A-Paz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Semente-Do-Amor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Swingue-Menina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Tocar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Zanzibar-As-Cores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Acústico/Zero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Beleza-Pura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Dentro-Da-Minha-Cabeça.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Frutificar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Menino-Deus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Mudança-De-Estação.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Onde-Todos-Estão.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Pororocas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Yesterday.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Ao-Vivo-No-Circo/Zanzibar-As-Cores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Abri-A-Porta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Alto-Astral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Arpoador.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Beleza-Pura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Massaranduba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Menino-Deus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Mudança-De-Estação.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Palco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Swingue-Menina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/E-collection/Zanzibar-As-Cores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Frutificar/Abri-A-Porta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Frutificar/Assanhado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Frutificar/Beleza-Pura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Frutificar/Frutificar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Frutificar/Pororocas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Frutificar/Swingue-Menina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Frutificar/Ticaricuriquetô.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Frutificar/Viver-Para-Sorrir.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Abri-A-Porta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Alto-Astral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Arpoador.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Assanhado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Beleza-Pura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Frutificar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Magia-Tropical.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Menino-Deus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Mudança-De-Estação.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Palco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Suingue-Menina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Transe-Total.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Zanzibar-As-Cores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Geração-Pop/Zero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Gosto-do-Prazer/Favelas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Gosto-do-Prazer/Gosto-Do-Prazer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Gosto-do-Prazer/Onde-Todos-Estão.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Alto-Astral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Apanhei-Te-Mini-Moog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Ar-De-Baião.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Asas-Musicais.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Boa-Vibração.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Cinema-Mudo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Ciranda-Nas-Estrelas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Escapuliu-Tudo-Areia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Mudança-De-Estação.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/O-Show-Não-Tem-Final.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Saudação-À-Paz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Swingue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Voo-Da-Borboleta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Mudança-de-estação/Zero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Abri-A-Porta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Alto-Astral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Arpoador.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/As-Quatro-Fases-Do-Amor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Beleza-Pura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Menino-Deus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Mudança-De-Estação.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Palco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Swingue-Menina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Nova-série/Zanzibar-As-Cores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Other-Song/Parraforr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Other-Song/Stacimirim.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Songs-on-Compilation/Parraforr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Songs-on-Compilation/Stacimirim.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Bruno-E-Daniel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Dança-Das-Fadas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Maracangalha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Massaranduba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Moleque-Sacana.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Palco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Para-Ser-O-Sol.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Semente-Do-Amor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Transe-Total.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Transe-Total/Zanzibar-As-Cores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Abri-A-Porta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Alto-Astral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Arpoador.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/As-Quatro-Fases-Do-Amor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Assanhado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Beleza-Pura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Menino-Deus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Palco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Sonho-Molhado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Swingue-Menina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cor-Do-Som/Warner-30-anos/Zanzibar-As-Cores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Corpse-Named-Abel/Other-Song/Dead-Set-On-Dying-Slow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Corpse-Named-Abel/Other-Song/Devil-Dressed-Lovely.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Corpse-Named-Abel/Other-Song/Feel-You-Breathe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Corpse-Named-Abel/Other-Song/Fin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Corpse-Named-Abel/Other-Song/The-Great-Escape.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Corpse-Named-Abel/Other-Song/Titus-Arum.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Deep.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Drive-Me-Home.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Empty-Exorcism.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Forever.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Home.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Love-Crooked-Love.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Necropolis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Never-Fade-Away.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Purgatory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Tears-And-Roses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/Hallowed-Hollow/Transparent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Alone-In-A-Crowd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Angel-How-Can-I-Go-On.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Dreaming.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/If-The-Heavens-Should-Fall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Ill-See-The-Stars.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Lonely-Like-A-Satellite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Only-A-Priest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Saline-And-Bitter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Serafina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/Shell-Of-A-Saint.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/State-Of-Mind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Covenant-Of-Thorns/If-The-Heavens-Should-Fall/This-Decay.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Daphne/-Apollon-.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Daphne/Black-Anthem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Daphne/Daphne.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Daphne/Iris-No-Hana.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Daphne/Never-Say-A-Gain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Daphne/Smells-Like-Unknown.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Daphne/This-Is-Liiiiive.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/-Xday-Interlude.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/BAIB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/Crocus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/Hello-Mr-Judgement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/IIαΩII.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/M1917.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/Mechanical-Parade.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/Shell-Never-Forgive-To-Be-Insulted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/Sketch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/Smells-Like-Unknown.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/The-Crow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/Traffic-Light.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crowd-Of-Rebellion/Xanthium/Unlostism.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crying-Shame/Other-Song/Are-You-There.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crying-Shame/Other-Song/In-The-Night.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crying-Shame/Other-Song/Let-Go.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crying-Shame/Other-Song/Mr-Potatohead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Crying-Shame/Other-Song/This-Last-Breath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Current-Affair/Life-in-an-Hourglass/Life-In-An-Hourglass.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Current-Affair/The-Real-Devastation/Explorer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Current-Affair/The-Real-Devastation/Life-Of-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Current-Affair/The-Real-Devastation/The-Real-Devastation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Current-Affair/The-Real-Devastation/The-Search.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Current-Affair/The-Real-Devastation/The-Thief.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/A-Different-Kind-Of-Love.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/All-The-Weak.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/Bank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/Believe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/Changes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/Everything.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/Figure-Out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/Lions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/Perfect-Company.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/South.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/The-Piano-Song.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Changes/Tonight-Lites.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Let-Love-In/Let-Love-In.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Other-Song/Lights-Camera-Action.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Other-Song/Mr-White.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cursive-Memory/Other-Song/Your-Smile-Never-Fades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cut-Below-The-Rest/Other-Song/Color-Blind.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cut-Below-The-Rest/Other-Song/Hating-The-Sky.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cutthroat-Kiss/Other-Song/Breathe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cutthroat-Kiss/Other-Song/Cut-An-X.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cutthroat-Kiss/Other-Song/Cutthroat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cutthroat-Kiss/Other-Song/Dear-Friends.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cutthroat-Kiss/Other-Song/Gasoline-Sunsets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cutthroat-Kiss/Other-Song/Scream-Silence-Now.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Cutthroat-Kiss/Other-Song/The-Way-We-Used-To.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Catalyst/Apex-Realized.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Catalyst/Beyond-Recall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Catalyst/Burn-It-All.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Catalyst/Dust-And-Ashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Catalyst/Formatting.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Catalyst/Nucleus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Catalyst/Silence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Other-Song/Beyond-Reacall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Halo/Other-Song/Unbrealkable.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Away-From-The-Shadows.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Dialogue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Dreadful-Dream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Fading-Away.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Fire-Across-The-Land.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Hollow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Last-Act-Of-A-Sickening-Show.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Of-Dream-And-Redemption.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Open-Minds-Will-Dominate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Senseless-Dilemma.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/Shadowy-Season-A-Ravenous-Moon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dark-Performance/Act-I/The-Funeral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dawn-Serene/Rest-and-Wither/The-Return-To-Light.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Better-Off-This-Way.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Black-N-Blues.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Call-Me-Crazy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Dressed-To-Thrill.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Feel-The-Rush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Her-And-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Here-We-Go-Again.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Push-Her-Back.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Here-We-Go-Again/Sorry-For-The-Let-Down.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Other-Song/Major-Tom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Addiction.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Before-It-Ends.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Coldest-Night-Piano.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Coldest-Night.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Go-Back.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Leave-A-Message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Parking-Lot-Romance.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/She-Needs-To-Know.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/So-Like-You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Take-Me-For-Granted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Away/Touch-Me-Tease-Me-Take-Me-For-Granted/Touch-Me-Tease-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Before-Sunrise/Other-Song/Aeroplane.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Before-Sunrise/Other-Song/Bela-Lugosi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Before-Sunrise/Other-Song/Leave-Me-Alone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Before-Sunrise/Other-Song/Nine-Numbers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Before-Sunrise/Other-Song/Raindrops.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Before-Sunrise/Other-Song/Set-Fire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Before-Sunrise/Other-Song/Voices-Over-A-Heartbeat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/My-Heroes-Have-Always-Killed-Cowboy/Forward-Backward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/My-Heroes-Have-Always-Killed-Cowboy/Storming-The-Bastille.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/My-Heroes-Have-Always-Killed-Cowboy/The-Gaze.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/My-Heroes-Have-Always-Killed-Cowboy/The-Illusion-Of-The-End.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/My-Heroes-Have-Always-Killed-Cowboy/There-Are-Objects-Objects.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/A-Good-Turn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/A-Literal-Title.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/All-Plots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/Lame-Duck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/Less-Is-More.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/Long-Distance-Song-Effects.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/New-Energy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/Nothing-With-Nothing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Notes/Ronalds-Right.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Other-Song/Foward-Backward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Split-EP/All-Plots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Split-EP/Nothing-With-Nothing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Split-EP/Part-One.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-In-Black-And-White/Split-EP/What-Do-You-Want-Me-To-Do-Sign-Your-Freakin-Yearbook.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/Lecherous/665.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/Lecherous/667.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/Lecherous/How-To-Kill-A-Witch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/Lecherous/In-Blood-I-Lust.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/Lecherous/In-The-Crease.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/Lecherous/Inomminate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/The-Oath/Black-Cobra.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/The-Oath/Forever-My-Dead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-Of-Pigs/The-Oath/Through-Time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/2004-Demos/Breathe-Hope-In-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/2004-Demos/If-Looks-Could-KillThen-Id-Be-Dead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/2004-Demos/Last-Request.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/2004-Demos/This-Sun-Has-Set.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/2004-Demos/Westfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/1958.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/A-Second-Glance.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/Casablanca-Sucked-Anyways.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/Heartless.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/If-Looks-Could-Kill.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/Intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/Sound-The-Alarm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/You-Had-Me-At-Hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/You-Should-Have-Killed-Me-When-You-Had-The-Chance.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/And-Their-Name-Was-Treason/Your-Way-With-Words-Is-Through-Silence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Attack-of-the-Killer-B-Sides/Another-Song-About-The-Weekend.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Attack-of-the-Killer-B-Sides/Over-My-Head-Cable-Car.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Attack-of-the-Killer-B-Sides/Right-Where-You-Want-Me-To-Be.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Attack-of-the-Killer-B-Sides/Since-U-Been-Gone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Bad-Vibrations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Bullfight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Exposed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Forgive-And-Forget.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Justified.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Naivety.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Paranoia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Reassemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Same-About-You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/Turn-Off-The-Radio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Bad-Vibrations/We-Got-This.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/Best-Of-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/City-Of-Ocala.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/Dead-Buried.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/End-Of-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/I-Remember.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/I-Surrender.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/Im-Already-Gone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/Life-11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/Life-Lessons-Learned-The-Hard-Way.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/Right-Back-At-It-Again.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/Sometimes-Youre-The-Hammer-Sometimes-Youre-The-Nail.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/The-Document-Speaks-For-Itself.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Common-Courtesy/Violence-Enough-Is-Enough.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/A-Shot-In-The-Dark.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/Colder-Than-My-Heart-If-You-Can-Imagine.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/Fast-Forward-To-2012.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/Heres-To-The-Past.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/I-Heard-Its-The-Softest-Thing-Ever.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/Monument.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/Show-Em-The-Ropes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/Speak-Of-The-Devil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/Start-The-Shooting.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/The-Danger-In-Starting-A-Fire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/The-Plot-To-Bomb-The-Panhandle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/For-Those-Who-Have-Heart/The-Price-We-Pay.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/Another-Song-About-The-Weekend.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/Have-Faith-In-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/Holdin-It-Down-For-The-Underground.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/Homesick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/If-It-Means-A-Lot-To-You.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/Im-Made-Of-Wax-Larry-What-Are-You-Made-Of.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/Mr-Highways-Thinking-About-The-End.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/My-Life-For-Hire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/NJ-Legion-Iced-Tea.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/The-Downfall-Of-Us-All.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/Welcome-To-The-Family.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Homesick/You-Already-Know-What-You-Are.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/Other-Songs/When-3s-A-Crowd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/2nd-Sucks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/All-I-Want.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/All-Signs-Point-To-Lauderdale.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/Better-Off-This-Way.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/If-I-Leave.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/Its-Complicated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/Out-Of-Time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/Sticks-Bricks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/This-Is-The-House-That-Doubt-Built.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Day-To-Remember/What-Separates-Me-from-You/You-Be-Tails-Ill-Be-Sonic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/Are-You-Listening-Or-Just-Waiting-For-Your-Turn-To-Speak.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/D1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/In-Retrospect.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/Longest-Five-Miles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/May-18th.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/No-Tradebacks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/Photoalbum.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/Rebecca.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/Stand-By.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/Statistic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/We-Grow-Numb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/A-Days-Refrain/When-Youre-Done-Screaming.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/Other-Song/District-Eleven.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/Other-Song/Dont-Fake-The-Funk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Days-Refrain/Other-Song/Forces-Of-Habit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Ambitions/Blueprint.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Ambitions/Crying-In-Crimson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Ambitions/Shipwreck-In-Colorado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Ambitions/To-Love-Is-To-Lie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Now-Is-Nothing/Amongst-The-First-To-Fall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Now-Is-Nothing/An-End-Like-This.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Now-Is-Nothing/Empty-Hearts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Now-Is-Nothing/Heartless.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Now-Is-Nothing/Im-Nobody.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Now-Is-Nothing/Leaving-For-Good.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Now-Is-Nothing/Shadows-Silhouettes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Giveaway/Now-Is-Nothing/Tragic-Timing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-God/Demo-2008-Just-Look-at-the-World-Around-You/Eternal-Gloom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-God/Demo-2008-Just-Look-at-the-World-Around-You/Forever-Torment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-God/Demo-2008-Just-Look-at-the-World-Around-You/To-Wonder-Among-The-Stars.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-God/Demo-2008-Just-Look-at-the-World-Around-You/Unleash-Thyself.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Letter-Promise/Other-Song/Columbian-Neck-Tie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Letter-Promise/Other-Song/Nobody-Dances-For-The-New-Ones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Letter-Promise/Other-Song/Skies-Arnt-Built-Like-They-Used-To-Be.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Letter-Promise/Other-Song/The-Apocolypse-Is-Going-To-Be-Flippin-Beautiful.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Letter-Promise/Other-Song/The-End-Of-The-World-Party.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Letter-Promise/Other-Song/The-Floor-Is-Lava.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Letter-Promise/Other-Song/We-Dont-Hide-The-Face.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Dead-Letter-Promise/Other-Song/Whats-Their-Prize-Harvy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-Among-Heroes/Stand-Strong/Five-Feet-And-Digging.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-Among-Heroes/Stand-Strong/Interlude.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-Among-Heroes/Stand-Strong/Michael-Nicewonder-Is-The-Next-Big-Thing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/Gods-Final-Descent/Desecration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/Gods-Final-Descent/Eternally-Damned.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/Gods-Final-Descent/Filled-With-Sorrow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/Gods-Final-Descent/Machine-Devours.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/Gods-Final-Descent/The-Black-Path.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/Gods-Final-Descent/Throne-Of-Depravity.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Beyond-The-Tears.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Born-To-Lose.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/For-My-Sins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Forever-Gone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Holding-On-To-Whats-Left.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Memories-Remain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Something-To-Die-For.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Suffer-The-Loss.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/The-Blackpath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Tortured-Days.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Death-For-Every-Sin/In-a-Time-Where-Hope-Is-Lost/Towards-The-End.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Decade-To-Die-For/Other-Song/Come-On-Feel-Strong-Sing-Along.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Decent-Animal/Rabbit-Hole-EP/First-We-See-If-It-Fits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Delicate-Disaster/Other-Song/A-Lifetime-Of-Regret.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Delicate-Disaster/Other-Song/Four-Leaf-Clover.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Delicate-Disaster/Other-Song/Lights-Down-Low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Delicate-Disaster/Other-Song/Mistakes-At-Twenty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Delicate-Disaster/Other-Song/Silent-Car-Ride.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Delicate-Disaster/Other-Song/Stay-The-Night.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Delicate-Disaster/Other-Song/Untitled.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Destructive-Issue/Other-Song/Sunset-Sour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IBMWatson/IBMWatsonMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Destructive-Issue/Other-Song/The-Embalmment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-Destructive-Issue/Other-Song/Vengeance.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-Butterfly/Black-Butterfly.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-Butterfly/Devils-Voice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/God-Child.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/Godess.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/Grafton-Calling.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/Masquerade.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/Mirror-Of-Terror.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/Ouvertura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/Sakura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/Viva-La-Casta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/バニラスカイ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/交響詩freedomイ短調.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Black-White-Album/今宵銃声が聴こえない街で.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Night-of-the-Knights/Fools-Gold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Night-of-the-Knights/Night-Of-The-Knights.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Abyss.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Black-Butterfly.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Loveless.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Night-Of-The-Knights.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Nu-World.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Nude.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Reel-Of-Fortune-Instrumental.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Shangrila.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/Ship-Friend-Of-Mine.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/夜明けのアンセム.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/LyricsMaster/A-JP/Tales-for-the-Abyss/灰色の天使.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LIWC/LIWC2007_English100131.dic" beforeDir="false" afterPath="$PROJECT_DIR$/LIWC/LIWC2007_English100131.dic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LIWC2007_English100131.dic" beforeDir="false" afterPath="$PROJECT_DIR$/LIWC2007_English100131.dic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LastFm/lastFmTags.py" beforeDir="false" afterPath="$PROJECT_DIR$/LastFm/lastFmTags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Posting/LIWC2007_English100131.dic" beforeDir="false" afterPath="$PROJECT_DIR$/Posting/LIWC2007_English100131.dic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Posting/posting_songs_liwc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Posting/posting_songs_liwc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dirsIterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/dirsIterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/textParser.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MusicByMood$liwcAlgorithm.coverage" NAME="liwcAlgorithm Coverage Results" MODIFIED="1545415518061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIWC" />
+    <SUITE FILE_PATH="coverage/MusicByMood$app.coverage" NAME="app Coverage Results" MODIFIED="1550655104636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/MusicByMood$dirsIterator.coverage" NAME="dirsIterator Coverage Results" MODIFIED="1546507481420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MusicByMood$IBMWatsonMain.coverage" NAME="IBMWatsonMain Coverage Results" MODIFIED="1546526806541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IBMWatson" />
+    <SUITE FILE_PATH="coverage/MusicByMood$Artists.coverage" NAME="Artists Coverage Results" MODIFIED="1545994948336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopArtists" />
+    <SUITE FILE_PATH="coverage/MusicByMood$main.coverage" NAME="main Coverage Results" MODIFIED="1546013298937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MusicByMood$posting_songs_liwc.coverage" NAME="posting_songs_liwc Coverage Results" MODIFIED="1546105828605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Posting" />
+    <SUITE FILE_PATH="coverage/Music$app.coverage" NAME="app Coverage Results" MODIFIED="1550656080413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/MusicByMood$lastFmTags.coverage" NAME="lastFmTags Coverage Results" MODIFIED="1546499107754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LastFm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LIWC/LIWC_similarity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="66" column="32" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IBMWatson/IBMWatsonMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IBMWatson/watson_similarity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>WE PASSED</find>
+      <find>WE P</find>
+      <find>WE PA</find>
+      <find>WE PAS</find>
+      <find>we</find>
+      <find>we passed</find>
+      <find>pass</find>
+      <find>letterC</find>
+      <find>data_folder</find>
+      <find>artists</find>
+      <find>passed</find>
+      <find>we pass</find>
+      <find>400</find>
+      <find>Passed</find>
+      <find>anger</find>
+      <find>we p</find>
+      <find>get_tags_Array</find>
+      <find>happ</find>
+      <find>file_to</find>
+      <find>kind</find>
+      <find>acid</find>
+      <find>aching</find>
+      <find>like</find>
+      <find>|</find>
+      <find>we pa</find>
+      <find>names_toSujectIndex</find>
+      <find>file_to_open</find>
+      <find>try</find>
+      <find>getID</find>
+      <find>dst</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Downloads/203139480_203665559 (1).ipynb" />
+        <option value="$PROJECT_DIR$/TopArtists/Artists.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/LIWC/liwcAlgorithm.py" />
+        <option value="$PROJECT_DIR$/textParser.py" />
+        <option value="$PROJECT_DIR$/LIWC2007_English100131.dic" />
+        <option value="$PROJECT_DIR$/LIWC/LIWC2007_English100131.dic" />
+        <option value="$PROJECT_DIR$/Posting/LIWC2007_English100131.dic" />
+        <option value="$USER_HOME$/Downloads/305284515_305780504 (1).ipynb" />
+        <option value="$PROJECT_DIR$/LastFm/songs_artists_new.txt" />
+        <option value="$PROJECT_DIR$/LastFm/lastFmTags.py" />
+        <option value="$PROJECT_DIR$/Posting/posting_songs_liwc.py" />
+        <option value="$PROJECT_DIR$/IBMWatson.py" />
+        <option value="$PROJECT_DIR$/dirsIterator.py" />
+        <option value="$PROJECT_DIR$/LIWC/LIWC_similarity.py" />
+        <option value="$PROJECT_DIR$/IBMWatson/IBMWatsonMain.py" />
+        <option value="$PROJECT_DIR$/IBMWatson/watson_similarity.py" />
+        <option value="$USER_HOME$/Downloads/305324998_308293950.ipynb" />
+        <option value="$USER_HOME$/Downloads/305284515_305780504 (2).ipynb" />
+        <option value="$PROJECT_DIR$/API/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MusicByMood" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicByMood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicByMood" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicByMood" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicByMood" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicByMood" type="462c0819:PsiDirectoryNode" />
+              <item name="IBMWatson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicByMood" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicByMood" type="462c0819:PsiDirectoryNode" />
+              <item name="LIWC" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Nir\year4\semesterA\פרויקט גמרק\MusicByMood\LastFm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Nir\year4\semesterA\פרויקט גמרק\MusicByMood\IBMWatson" />
+      <recent name="C:\Users\User\Desktop\Nir\year4\semesterA\פרויקט גמרק\MusicByMood\API" />
+      <recent name="C:\Users\User\Desktop\Nir\year4\semesterA\פרויקט גמרק\MusicByMood\LIWC" />
+      <recent name="C:\Users\User\Desktop\Nir\year4\semesterA\פרויקט גמרק\MusicByMood" />
+      <recent name="C:\Users\User\Desktop\Nir\year4\semesterA\פרויקט גמרק\MusicByMood\LastFm" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="IBMWatsonMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicByMood" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IBMWatson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IBMWatson/IBMWatsonMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicByMood" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dirsIterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicByMood" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dirsIterator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lastFmTags" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicByMood" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LastFm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LastFm/lastFmTags.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="posting_songs_liwc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicByMood" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Posting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Posting/posting_songs_liwc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.IBMWatsonMain" />
+        <item itemvalue="Python.dirsIterator" />
+        <item itemvalue="Python.lastFmTags" />
+        <item itemvalue="Python.posting_songs_liwc" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a966ff1c-cfa4-43ef-b4df-58db0231a698" name="Default Changelist" comment="" />
+      <created>1544622498517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544622498517</updated>
+      <workItem from="1544622501769" duration="8718000" />
+      <workItem from="1544799486270" duration="153000" />
+      <workItem from="1544799687451" duration="158431000" />
+      <workItem from="1549102533619" duration="5358000" />
+      <workItem from="1550654946295" duration="711000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="173371000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1505295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.38134205" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41321388" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32569557" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3207856" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3207856" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4140753" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32569557" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3207856" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopArtists/Artists.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/app.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/app.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API/app.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LIWC2007_English100131.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="93" column="23" lean-forward="true" selection-end-line="4551" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIWC/LIWC2007_English100131.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="4551" column="7" selection-start-line="4551" selection-start-column="7" selection-end-line="4551" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Posting/LIWC2007_English100131.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="4551" column="7" selection-start-line="4551" selection-start-column="7" selection-end-line="4551" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/305284515_305780504 (1).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Online marketing assignment - solution.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFm/songs_artists_new1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFm/songs_artists_TopArtist.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42143">
+          <caret column="310632" selection-start-column="310632" selection-end-column="310632" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFm/songs_artists_new.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret column="282" lean-forward="true" selection-start-column="282" selection-end-column="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFm/fileDict.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IBMWatson.py" />
+    <entry file="file://$PROJECT_DIR$/LastFm/songs_artists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFm/lastFmTags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/MusicByMood/Lib/site-packages/waitress/channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIWC_similarity.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/MusicByMood/Lib/site-packages/waitress/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/LIWC2007_English100131.dic">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_articles/travel/Luxury for less in this must-visit Asian destination.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_articles/entertainment/Jennifer Lopez juggles romance, work and more in 'Second Act'.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_articles/entertainment/Andy Cohen reveals he's expecting his first child via surrogate.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="82" lean-forward="true" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_for_LIWC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIWC/liwcAlgorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dirsIterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Posting/posting_songs_liwc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/203182654_203770011 (3).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Online marketing assignment - solution (1).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/305324998_308293950.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/kernel (17).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/305284515_305780504 (3).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/kernel (15).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ביג דאטה/6/fix/203665559_203139480.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/kernel (7) (1).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/kernel (11).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/307867358_308454115.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/203182654_203770011 (4).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/204711576_308466242 (2).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Online marketing assignment - solution (2).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ביג דאטה/marketing/203665559_203139480.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/305284515_305780504 (2).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/203665559_203139480 (4).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/203665559_203139480 (5).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/203665559_203139480 (6).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/203139480_203665559.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IBMWatson/IBMWatsonMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IBMWatson/watson_similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/203665559_203139480 (7).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/kernel (9) (2).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ביג דאטה/6/203665559_203139480.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIWC/LIWC_similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="66" column="32" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
